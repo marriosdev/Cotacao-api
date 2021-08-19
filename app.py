@@ -1,10 +1,5 @@
-#Flask eh a propria classe do flask 
-#Response eh uma classe pra fazer retorno da api
-#request eh pra pegar os dados da requisicao
-
 from webscrapping import cotacao
 from flask import Flask, Response, request, jsonify
-import json 
 
 app = Flask(__name__)
 
