@@ -1,9 +1,11 @@
+https://pluc-cotacao.herokuapp.com/
+
 |  ROTA | TIPO| 
 |---|---|
 |/cotacao/de=<moeda>&para=<moeda>   | GET  |
   
 EX:
-  /cotacao/de=USD&para=BRL
+  https://pluc-cotacao.herokuapp.com/cotacao/de=USD&para=BRL
   
   Resposta
   ```json
