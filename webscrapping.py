@@ -7,7 +7,7 @@ def cotacao(de, para):
     valor = soup.select('[class="YMlKec fxKbKc"]')
     try:
         valor = float(valor[0].text)
-        result = {"Valor": round(valor, 2)}
+        result = {"Valor": valor}
         return result
     except:
         return "Ocorreu um erro"
